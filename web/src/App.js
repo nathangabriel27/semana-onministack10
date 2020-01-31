@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 /*
 Componente: Função que retorna algum conteudo 
 Propriedade: Componente Pai que passar par o componente Filho as propriedades 
@@ -43,7 +44,59 @@ function App() {
         </form>
 
       </aside>
+
       <main>
+        <ul>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/43018177?s=460&v=4" alt="Nathan Gabriel" />
+              <div className="user-info">
+                <strong>Nathan Gabriel</strong>
+                <span>Iniciante em : React, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Futuro desenvolvedor FullStack</p>
+            <a href="https://github.com/nathangabriel27">Acessar perfil do Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/43018177?s=460&v=4" alt="Nathan Gabriel" />
+              <div className="user-info">
+                <strong>Nathan Gabriel</strong>
+                <span>Iniciante em : React, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Futuro desenvolvedor FullStack</p>
+            <a href="https://github.com/nathangabriel27">Acessar perfil do Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/43018177?s=460&v=4" alt="Nathan Gabriel" />
+              <div className="user-info">
+                <strong>Nathan Gabriel</strong>
+                <span>Iniciante em : React, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Futuro desenvolvedor FullStack</p>
+            <a href="https://github.com/nathangabriel27">Acessar perfil do Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/43018177?s=460&v=4" alt="Nathan Gabriel" />
+              <div className="user-info">
+                <strong>Nathan Gabriel</strong>
+                <span>Iniciante em : React, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Futuro desenvolvedor FullStack</p>
+            <a href="https://github.com/nathangabriel27">Acessar perfil do Github</a>
+          </li>
+
+        </ul>
 
       </main>
     </div>
