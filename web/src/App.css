@@ -11,3 +11,21 @@
 #app main{
   margin-left: 30px;
 }
+
+/* trabalhando resposividade, quando a @media for maior que 1000px 
+ele muda o estilo do #app e do #app main. Um if de css.  
+ */
+@media(max-width: 1000px){
+  #app{
+    flex-direction: column;
+
+  }
+  #app main{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  #app aside{
+    width: 100%;
+  }
+}

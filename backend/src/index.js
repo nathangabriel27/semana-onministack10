@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose')
 const routes = require('./routes')
+const cors = require('cors')
 
 const app = express()
 
@@ -10,6 +11,7 @@ mongoose.connect('mongodb://nathangabriel27:ng27081998@semanaomnistack-shard-00-
 })
 
 
+app.use(cors())
 app.use(express.json())
 app.use(routes)
 

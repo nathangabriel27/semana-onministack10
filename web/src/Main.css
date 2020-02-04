@@ -8,6 +8,11 @@ main ul{
   gap: 20px;
   list-style: none;
 }
+@media(max-width: 650px){
+  main ul{
+    grid-template-columns: 1fr 
+  }
+}
 
 li.dev-item{
   background: #fff;
@@ -20,6 +25,7 @@ li.dev-item header{
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
   
 }
 li.dev-item header .user-info{
