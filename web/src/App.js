@@ -84,7 +84,7 @@ function App() {
             <a href="https://github.com/nathangabriel27">Acessar perfil do Github</a>
           </li>
 
-          <li className="dev-item">
+          <li className="dev-item" >
             <header>
               <img src="https://avatars2.githubusercontent.com/u/43018177?s=460&v=4" alt="Nathan Gabriel" />
               <div className="user-info">
